@@ -12,6 +12,21 @@ alias gd='git diff'
 alias go='git checkout '
 
 # ----------------
+# DJANGO
+# ----------------
+alias dj="python manage.py"
+alias drs="python manage.py runserver"
+alias drp="python manage.py runserverplus"
+alias dsh="python manage.py shell"
+alias dsp="python manage.py shell_plus"
+alias dsm="python manage.py schemamigration"
+alias dm="python manage.py migrate"
+alias dmm="python manage.py makemigrations"
+alias ddd="python manage.py dumpdata"
+alias dld="python manage.py loaddata"
+alias dt="python manage.py test"
+
+# ----------------
 # DOCKER
 # ----------------
 alias dc="docker "
