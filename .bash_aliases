@@ -6,10 +6,22 @@ alias rmpyc='find . -name "*.py[c|o]" -exec rm -rf {} \;'
 alias gl="git log --all --decorate --oneline --graph"
 alias gs='git status '
 alias ga='git add '
+alias gaa='git add .'
 alias gb='git branch '
 alias gc='git commit'
 alias gd='git diff'
 alias go='git checkout '
+alias gca='git commit --amend'
+alias gsl='git stash list'
+alias gsa='git stash apply '
+alias gsp='git stash pop '
+alias gspm='git stash push -m '
+
+alias glg='git log --stat'
+alias glgp='git log --stat -p'
+alias glgg='git log --graph'
+alias glgga='git log --graph --decorate --all'
+alias glgm='git log --graph --max-count=10'
 
 # ----------------
 # DJANGO
